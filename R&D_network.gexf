@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta>
+    <title>R&amp;D_network.gexf</title>
+    <authors>Gephi 0.10.1</authors>
+    <description>Graph for Votations</description>
+  </meta>
+  <graph defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="modularityClass" title="modularityClass" type="integer"/>
+      <attribute id="degree" title="degree" type="integer"/>
+      <attribute id="Degree" title="Degree" type="integer"/>
+      <attribute id="rawSize" title="rawSize" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="domain" title="domain" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="- Healtcare" label="Healtcare">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="Degree" value="5"/>
+          <attvalue for="rawSize" value="28.73469387755102"/>
+        </attvalues>
+        <viz:color r="90" g="184" b="150"/>
+        <viz:size value="28.73469387755102"/>
+        <viz:position x="-231.2688951098236" y="-64.30923939348499"/>
+      </node>
+      <node id="- Finance" label="Finance">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="Degree" value="7"/>
+          <attvalue for="rawSize" value="40"/>
+        </attvalues>
+        <viz:color r="45" g="146" b="97"/>
+        <viz:size value="40"/>
+        <viz:position x="250.6081048901764" y="-64.30923939348499"/>
+      </node>
+      <node id="- Blockchain" label="Blockchain">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="Degree" value="4"/>
+          <attvalue for="rawSize" value="24.510204081632654"/>
+        </attvalues>
+        <viz:color r="117" g="200" b="173"/>
+        <viz:size value="24.510204081632654"/>
+        <viz:position x="-1.7097463943033402" y="259.3846368545146"/>
+      </node>
+      <node id="- CyberSec" label="CyberSec">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="Degree" value="7"/>
+          <attvalue for="rawSize" value="40"/>
+        </attvalues>
+        <viz:color r="45" g="146" b="97"/>
+        <viz:size value="40"/>
+        <viz:position x="-4.107433135088246" y="-489.2834895810709"/>
+      </node>
+      <node id="- Chemistry" label="Chemistry">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="Degree" value="6"/>
+          <attvalue for="rawSize" value="33.89795918367347"/>
+        </attvalues>
+        <viz:color r="67" g="165" b="124"/>
+        <viz:size value="33.89795918367347"/>
+        <viz:position x="290.0303464147864" y="247.90480702818166"/>
+      </node>
+      <node id="- Supply Chain" label="Supply Chain">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="Degree" value="5"/>
+          <attvalue for="rawSize" value="28.73469387755102"/>
+        </attvalues>
+        <viz:color r="90" g="184" b="150"/>
+        <viz:size value="28.73469387755102"/>
+        <viz:position x="-379.83312205727873" y="379.79161778455057"/>
+      </node>
+      <node id="- Hight Tech" label="Hight Tech">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="Degree" value="7"/>
+          <attvalue for="rawSize" value="40"/>
+        </attvalues>
+        <viz:color r="45" g="146" b="97"/>
+        <viz:size value="40"/>
+        <viz:position x="491.28883249423717" y="-497.38649115577823"/>
+      </node>
+      <node id="- Banking" label="Banking">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="Degree" value="5"/>
+          <attvalue for="rawSize" value="28.73469387755102"/>
+        </attvalues>
+        <viz:color r="90" g="184" b="150"/>
+        <viz:size value="28.73469387755102"/>
+        <viz:position x="-484.96323741555506" y="-457.92844821950666"/>
+      </node>
+      <node id="- Own" label="Own">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="Degree" value="4"/>
+          <attvalue for="rawSize" value="24.510204081632654"/>
+        </attvalues>
+        <viz:color r="117" g="200" b="173"/>
+        <viz:size value="24.510204081632654"/>
+        <viz:position x="629.3195218720755" y="93.86688473665757"/>
+      </node>
+      <node id="- AI" label="AI">
+        <attvalues>
+          <attvalue for="type" value="Market"/>
+          <attvalue for="modularityClass" value="2"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="-429.3952890822344" y="601.6932001273043"/>
+      </node>
+      <node id="DR" label="DR">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="-21.041576581818006" y="701.4654743914099"/>
+      </node>
+      <node id="FD" label="FD">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="901.2245330571299" y="-215.94121672775077"/>
+      </node>
+      <node id="JP" label="JP">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="-768.3711049330786" y="-73.27202952123668"/>
+      </node>
+      <node id="JDRP" label="JDRP">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="236.53048314180654" y="-924.9781136108086"/>
+      </node>
+      <node id="NK" label="NK">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="-285.5144006064447" y="-892.0951688604393"/>
+      </node>
+      <node id="AL" label="AL">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="0"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="-862.5023015295559" y="410.8224035869097"/>
+      </node>
+      <node id="JH" label="JH">
+        <attvalues>
+          <attvalue for="type" value="Voter"/>
+          <attvalue for="modularityClass" value="1"/>
+          <attvalue for="degree" value="0"/>
+          <attvalue for="Degree" value="0"/>
+          <attvalue for="rawSize" value="17"/>
+        </attvalues>
+        <viz:color r="102" g="102" b="102"/>
+        <viz:size value="17"/>
+        <viz:position x="862.304287251938" y="426.7629327593609"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="DR" target="- Healtcare">
+        <attvalues>
+          <attvalue for="domain" value="Simulación cuántica de proteínas para la investigación médica:"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="DR" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Optimización de Simulaciones Utilizando Redes Tensoriales Potenciadas con Quantum Computing"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="DR" target="- Blockchain">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Smart Contracts for Blockchain"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="DR" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Implementación de Protocolos (BB84) y Algoritmos de Cifrado Cuántico (QKD) en Canales de Comunicación Cuánticos"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="DR" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Creación de Catalizadores para CO2"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="DR" target="- Banking">
+        <attvalues>
+          <attvalue for="domain" value="Detección de fraudes en tarjetas de crédito:"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="DR" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Integraciones con Airflow-Quantum y orquestradores."/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="FD" target="- Healtcare">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Drug Discovery for Rare Diseases in Life Science"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="FD" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="FD" target="- Blockchain">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Smart Contracts for Blockchain"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="FD" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Implementación de Algoritmos Cuánticos para Factorizar Números Primos Enteros (RSA) en Ciberseguridad"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="FD" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Xenobots: Vida Biológica Sintética y su Relación con la Inteligencia Artificial"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="FD" target="- Supply Chain">
+        <attvalues>
+          <attvalue for="domain" value="Optimización de la producción de energía renovable:"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="FD" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Diseño de sistemas distribuidos para entrenar modelos híbridos con computación cuántica escalable con databricks."/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="FD" target="- Banking">
+        <attvalues>
+          <attvalue for="domain" value="Detección de fraudes en tarjetas de crédito:"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="JP" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="JP" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Implementación de Algoritmos Cuánticos para Factorizar Números Primos Enteros (RSA) en Ciberseguridad"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="JP" target="- Healtcare">
+        <attvalues>
+          <attvalue for="domain" value="Simulación cuántica de proteínas para la investigación médica:"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="JP" target="- Supply Chain">
+        <attvalues>
+          <attvalue for="domain" value="Distribución de energía eficiente en redes inteligentes:"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="JP" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Diseño de sistemas distribuidos para entrenar modelos híbridos con computación cuántica escalable con databricks."/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="JP" target="- Own">
+        <attvalues>
+          <attvalue for="domain" value="Creación de dashboard con data clave en tiempo real del ecosistema de computación cuántica."/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="JDRP" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="JDRP" target="- Blockchain">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Smart Contracts for Blockchain"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="JDRP" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Implementación de Algoritmos Cuánticos para Factorizar Números Primos Enteros (RSA) en Ciberseguridad"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="JDRP" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Optimización del Proceso de Haber-Bosch para la Producción de Amoniaco (NH3)"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="JDRP" target="- Healtcare">
+        <attvalues>
+          <attvalue for="domain" value="Optimización en el diseño de moleculas:"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="JDRP" target="- Supply Chain">
+        <attvalues>
+          <attvalue for="domain" value="Optimización de rutas para logística de atención médica:"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="JDRP" target="- Banking">
+        <attvalues>
+          <attvalue for="domain" value="Detección de fraudes en tarjetas de crédito:"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="JDRP" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Integraciones con Airflow-Quantum y orquestradores."/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="JDRP" target="- Own">
+        <attvalues>
+          <attvalue for="domain" value="Creación de dashboard con data clave en tiempo real del ecosistema de computación cuántica."/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="NK" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="NK" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Biosecurity"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="NK" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Integraciones con Airflow-Quantum y orquestradores."/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="NK" target="- Supply Chain">
+        <attvalues>
+          <attvalue for="domain" value="Distribución de energía eficiente en redes inteligentes:"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="NK" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Optimización del Proceso de Haber-Bosch para la Producción de Amoniaco (NH3)"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="NK" target="- Own">
+        <attvalues>
+          <attvalue for="domain" value="Creación de dashboard con data clave en tiempo real del ecosistema de computación cuántica."/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="AL" target="- Blockchain">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Smart Contracts for Blockchain"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="AL" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Implementación de Algoritmos Cuánticos para Factorizar Números Primos Enteros (RSA) en Ciberseguridad"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="AL" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Simulación cuántica de materiales superconductores:"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="AL" target="- Supply Chain">
+        <attvalues>
+          <attvalue for="domain" value="Optimización de la producción de energía renovable:"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="AL" target="- Banking">
+        <attvalues>
+          <attvalue for="domain" value="Detección de fraudes en tarjetas de crédito:"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="AL" target="- Healtcare">
+        <attvalues>
+          <attvalue for="domain" value="Optimización en el diseño de moleculas:"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="AL" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Sistemas de Intersección y Estudio: Quantum Computing + Neuromorphic Computing + AI"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="AL" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="JH" target="- CyberSec">
+        <attvalues>
+          <attvalue for="domain" value="Quantum Computing + Protocolos de Encriptación Moderna + Transferencias de Archivos + Quantum Keys Distribution"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="JH" target="- Hight Tech">
+        <attvalues>
+          <attvalue for="domain" value="Detección de Comunidades en Diferentes Redes Utilizando Quantum Computing para Problemas de Cliques/Subgrafos"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="JH" target="- Banking">
+        <attvalues>
+          <attvalue for="domain" value="Detección de fraudes en tarjetas de crédito:"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="JH" target="- Chemistry">
+        <attvalues>
+          <attvalue for="domain" value="Optimización del Proceso de Haber-Bosch para la Producción de Amoniaco (NH3)"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="JH" target="- Finance">
+        <attvalues>
+          <attvalue for="domain" value="Scoring cuántico crediticio"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="JH" target="- Own">
+        <attvalues>
+          <attvalue for="domain" value="Creación de dashboard con data clave en tiempo real del ecosistema de computación cuántica."/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
